@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3eee3" />
+    <meta
+      name="description"
+      content="日本相撲協会公式チャンネルの取組動画を、開催日ごとに順番に見られる非公式ダイジェストページです。"
+    />
+    <title>大相撲 取組ダイジェスト</title>
+    <link rel="preconnect" href="https://www.youtube-nocookie.com" />
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="data/bouts.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="top-rule" aria-hidden="true"></div>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="basho-label" id="basho-label">令和8年 七月場所</div>
+        <div class="hero-heading">
+          <label class="hero-day-picker">
+            <span class="visually-hidden">観戦日を選ぶ</span>
+            <select id="day-select" aria-label="観戦日を選ぶ">
+              <option>3日目</option>
+            </select>
+          </label>
+          <h1 id="page-title">取組ダイジェスト</h1>
+        </div>
+        <div class="hero-meta">
+          <span id="date-label">7月15日（水）</span>
+          <span class="meta-divider" aria-hidden="true"></span>
+          <span id="count-label">更新待ち</span>
+        </div>
+      </section>
+
+      <section class="viewer-shell" aria-live="polite">
+        <div class="viewer-topline">
+          <div class="bout-count">
+            <span id="current-number">—</span>
+            <span class="slash">/</span>
+            <span id="total-number">—</span>
+            <small>取組</small>
+          </div>
+          <div class="status-pill" id="status-pill">本日の取組</div>
+        </div>
+
+        <div class="player-frame" id="player-frame">
+          <iframe
+            id="video-player"
+            title="取組動画"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="empty-state" id="empty-state" hidden>
+            <span class="empty-ring" aria-hidden="true"></span>
+            <p class="empty-kicker">ただいま準備中</p>
+            <h2>本日の取組動画を<br />待っています</h2>
+            <p>18時ごろから順次公開され、<br class="mobile-only" />19時ごろにもう一度更新します。</p>
+            <a href="https://www.youtube.com/@sumo-video/videos" target="_blank" rel="noopener noreferrer">
+              公式チャンネルを見る ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="bout-info" id="bout-info">
+          <p class="bout-eyebrow" id="bout-eyebrow">本日の取組</p>
+          <h2 id="bout-title">動画を読み込んでいます</h2>
+        </div>
+
+        <div class="progress-track" aria-hidden="true">
+          <span id="progress-bar"></span>
+        </div>
+
+        <nav class="player-controls" aria-label="取組の移動">
+          <button class="control-button previous" id="previous-button" type="button">
+            <span aria-hidden="true">←</span>
+            <span>前の取組</span>
+          </button>
+          <button class="control-button next" id="next-button" type="button">
+            <span>次の取組</span>
+            <span class="next-arrow" aria-hidden="true">→</span>
+          </button>
+        </nav>
+        <p class="key-hint">キーボードの <kbd>←</kbd> <kbd>→</kbd> でも移動できます</p>
+      </section>
+
+      <aside class="source-note">
+        <span class="source-seal" aria-hidden="true">公式</span>
+        <p>
+          動画は
+          <a href="https://www.youtube.com/@sumo-video/videos" target="_blank" rel="noopener noreferrer">
+            日本相撲協会公式チャンネル
+          </a>
+          の公開映像を埋め込み表示しています。
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>非公式ファンページ</p>
+      <p id="updated-label">最終更新を確認中</p>
+    </footer>
+  </body>
+</html>
