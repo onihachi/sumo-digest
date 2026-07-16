@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-07-16T10:35:41.709Z",
+  "generatedAt": "2026-07-16T12:08:12.172Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
