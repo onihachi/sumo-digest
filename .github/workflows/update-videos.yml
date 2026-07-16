@@ -2,8 +2,12 @@ name: 取組動画を更新
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC。日本時間 18:00 と 19:00。
-    - cron: "0 9,10 * * *"
+    # GitHub Actions の cron は UTC。日本時間 17:52・18:42・19:12・19:42。
+    # 毎時0分の混雑を避けつつ、取組終了前から遅い投稿まで段階的に取得する。
+    - cron: "52 8 * * *"
+    - cron: "42 9 * * *"
+    - cron: "12 10 * * *"
+    - cron: "42 10 * * *"
   workflow_dispatch:
 
 permissions:

@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-07-15T10:45:02.482Z",
+  "generatedAt": "2026-07-16T10:35:41.709Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -337,6 +337,104 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "義ノ富士ー安青錦",
             "thumbnail": "https://i.ytimg.com/vi/WZ_-DL2WpBc/hqdefault.jpg",
             "duration": "1:19"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "2026-07-16",
+        "complete": false,
+        "videos": [
+          {
+            "id": "Kf7iILS-gUk",
+            "title": "大相撲　錦木(伊勢ノ海部屋)ー炎鵬(伊勢ヶ濱部屋)＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "錦木(伊勢ノ海部屋)ー炎鵬(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/Kf7iILS-gUk/hqdefault.jpg",
+            "duration": "1:41"
+          },
+          {
+            "id": "JhjCRWgtD4c",
+            "title": "大相撲　輝(高田川部屋)ー嵐富士(伊勢ヶ濱部屋)＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "輝(高田川部屋)ー嵐富士(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/JhjCRWgtD4c/hqdefault.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "LYr-i_gAfDE",
+            "title": "大相撲　玉鷲(片男波部屋)ー明生(立浪部屋)＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "玉鷲(片男波部屋)ー明生(立浪部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/LYr-i_gAfDE/hqdefault.jpg",
+            "duration": "2:38"
+          },
+          {
+            "id": "JGHVQ95S4DU",
+            "title": "大相撲　横綱 豊昇龍ー豪ノ山＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "横綱 豊昇龍ー豪ノ山",
+            "thumbnail": "https://i.ytimg.com/vi/JGHVQ95S4DU/hqdefault.jpg",
+            "duration": "1:34"
+          },
+          {
+            "id": "Vp70IonDOvk",
+            "title": "大相撲　美ノ海ー横綱 大の里＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "美ノ海ー横綱 大の里",
+            "thumbnail": "https://i.ytimg.com/vi/Vp70IonDOvk/hqdefault.jpg",
+            "duration": "1:17"
+          },
+          {
+            "id": "d7S3WPDp18Q",
+            "title": "大相撲　大関 霧島ー平戸海＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "大関 霧島ー平戸海",
+            "thumbnail": "https://i.ytimg.com/vi/d7S3WPDp18Q/hqdefault.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "V1ti91CFUWI",
+            "title": "大相撲　安青錦ー大関 琴櫻＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "安青錦ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/V1ti91CFUWI/hqdefault.jpg",
+            "duration": "1:20"
+          },
+          {
+            "id": "riYdtv0E-Lo",
+            "title": "大相撲　藤ノ川ー琴勝峰＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "藤ノ川ー琴勝峰",
+            "thumbnail": "https://i.ytimg.com/vi/riYdtv0E-Lo/hqdefault.jpg",
+            "duration": "0:59"
+          },
+          {
+            "id": "ednCFUBB_sA",
+            "title": "大相撲　熱海富士ー隆の勝＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "熱海富士ー隆の勝",
+            "thumbnail": "https://i.ytimg.com/vi/ednCFUBB_sA/hqdefault.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "CwrPwSWGkXU",
+            "title": "大相撲　義ノ富士ー王鵬＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "義ノ富士ー王鵬",
+            "thumbnail": "https://i.ytimg.com/vi/CwrPwSWGkXU/hqdefault.jpg",
+            "duration": "1:32"
+          },
+          {
+            "id": "oT_1R4hN6ro",
+            "title": "大相撲　宇良ー伯乃富士＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "宇良ー伯乃富士",
+            "thumbnail": "https://i.ytimg.com/vi/oT_1R4hN6ro/hqdefault.jpg",
+            "duration": "1:33"
+          },
+          {
+            "id": "OxaVqUyuBd8",
+            "title": "大相撲　藤凌駕ー髙安＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "藤凌駕ー髙安",
+            "thumbnail": "https://i.ytimg.com/vi/OxaVqUyuBd8/hqdefault.jpg",
+            "duration": "1:49"
+          },
+          {
+            "id": "JxGhHFMU7qQ",
+            "title": "大相撲　若ノ勝ー翔猿＜令和８年七月場所・５日目＞SUMO",
+            "displayTitle": "若ノ勝ー翔猿",
+            "thumbnail": "https://i.ytimg.com/vi/JxGhHFMU7qQ/hqdefault.jpg",
+            "duration": "1:16"
           }
         ]
       }
