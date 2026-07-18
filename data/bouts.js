@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-07-17T11:56:49.339Z",
+  "generatedAt": "2026-07-18T10:04:17.346Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -554,6 +554,69 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "朝紅龍ー獅司",
             "thumbnail": "https://i.ytimg.com/vi/CTMICbRRX6o/hqdefault.jpg",
             "duration": "1:16"
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "date": "2026-07-18",
+        "complete": true,
+        "videos": [
+          {
+            "id": "rO0PAQ-EA-s",
+            "title": "大相撲　玉鷲(片男波部屋)ー白熊(二所ノ関部屋)＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "玉鷲(片男波部屋)ー白熊(二所ノ関部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/rO0PAQ-EA-s/hqdefault.jpg",
+            "duration": "1:16"
+          },
+          {
+            "id": "6PHRiRZgp3Q",
+            "title": "大相撲　義ノ富士ー隆の勝＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "義ノ富士ー隆の勝",
+            "thumbnail": "https://i.ytimg.com/vi/6PHRiRZgp3Q/hqdefault.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "p8BAP3lBGnM",
+            "title": "大相撲　琴栄峰ー狼雅＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "琴栄峰ー狼雅",
+            "thumbnail": "https://i.ytimg.com/vi/p8BAP3lBGnM/hqdefault.jpg",
+            "duration": "1:10"
+          },
+          {
+            "id": "ydJgcDkMi3g",
+            "title": "大相撲　藤ノ川ー安青錦＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "藤ノ川ー安青錦",
+            "thumbnail": "https://i.ytimg.com/vi/ydJgcDkMi3g/hqdefault.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "H45_7esnhBw",
+            "title": "大相撲　熱海富士ー大関 琴櫻＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "熱海富士ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/H45_7esnhBw/hqdefault.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "ipcCL-d5wOc",
+            "title": "大相撲　大関 霧島ー琴勝峰＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "大関 霧島ー琴勝峰",
+            "thumbnail": "https://i.ytimg.com/vi/ipcCL-d5wOc/hqdefault.jpg",
+            "duration": "1:42"
+          },
+          {
+            "id": "ksZiR3QRr9g",
+            "title": "大相撲　伯乃富士ー横綱 大の里＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "伯乃富士ー横綱 大の里",
+            "thumbnail": "https://i.ytimg.com/vi/ksZiR3QRr9g/hqdefault.jpg",
+            "duration": "1:23"
+          },
+          {
+            "id": "p0tbbkuGf64",
+            "title": "大相撲　横綱 豊昇龍ー平戸海＜令和８年七月場所・７日目＞SUMO",
+            "displayTitle": "横綱 豊昇龍ー平戸海",
+            "thumbnail": "https://i.ytimg.com/vi/p0tbbkuGf64/hqdefault.jpg",
+            "duration": "1:10"
           }
         ]
       }
