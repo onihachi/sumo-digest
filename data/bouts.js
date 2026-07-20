@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-07-19T11:41:16.620Z",
+  "generatedAt": "2026-07-20T11:29:21.722Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -701,6 +701,76 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "金峰山ー獅司",
             "thumbnail": "https://i.ytimg.com/vi/GluBzc0qERI/hqdefault.jpg",
             "duration": "1:35"
+          }
+        ]
+      },
+      {
+        "day": 9,
+        "date": "2026-07-20",
+        "complete": true,
+        "videos": [
+          {
+            "id": "UJmUivxIaB0",
+            "title": "大相撲　白熊ー嵐富士＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "白熊ー嵐富士",
+            "thumbnail": "https://i.ytimg.com/vi/UJmUivxIaB0/hqdefault.jpg",
+            "duration": "1:15"
+          },
+          {
+            "id": "yPs2otjkqwc",
+            "title": "大相撲　時疾風ー寿之富士＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "時疾風ー寿之富士",
+            "thumbnail": "https://i.ytimg.com/vi/yPs2otjkqwc/hqdefault.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "SkKsEcbgqmg",
+            "title": "大相撲　朝紅龍ー尊富士＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "朝紅龍ー尊富士",
+            "thumbnail": "https://i.ytimg.com/vi/SkKsEcbgqmg/hqdefault.jpg",
+            "duration": "1:29"
+          },
+          {
+            "id": "RVjIP5bcXFE",
+            "title": "大相撲　朝乃山ー大青山＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "朝乃山ー大青山",
+            "thumbnail": "https://i.ytimg.com/vi/RVjIP5bcXFE/hqdefault.jpg",
+            "duration": "1:37"
+          },
+          {
+            "id": "9jm3ekTMeXE",
+            "title": "大相撲　錦富士ー髙安＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "錦富士ー髙安",
+            "thumbnail": "https://i.ytimg.com/vi/9jm3ekTMeXE/hqdefault.jpg",
+            "duration": "2:07"
+          },
+          {
+            "id": "tHbf5rW28E0",
+            "title": "大相撲　伯乃富士ー大関 琴櫻＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "伯乃富士ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/tHbf5rW28E0/hqdefault.jpg",
+            "duration": "1:45"
+          },
+          {
+            "id": "VGTAHnOH4HQ",
+            "title": "大相撲　大関 霧島ー美ノ海＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "大関 霧島ー美ノ海",
+            "thumbnail": "https://i.ytimg.com/vi/VGTAHnOH4HQ/hqdefault.jpg",
+            "duration": "2:57"
+          },
+          {
+            "id": "bInTwci2ZsY",
+            "title": "大相撲　安青錦ー横綱 大の里＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "安青錦ー横綱 大の里",
+            "thumbnail": "https://i.ytimg.com/vi/bInTwci2ZsY/hqdefault.jpg",
+            "duration": "1:04"
+          },
+          {
+            "id": "LEPiWLqnUSI",
+            "title": "大相撲　横綱 豊昇龍ー義ノ富士＜令和８年七月場所・９日目＞SUMO",
+            "displayTitle": "横綱 豊昇龍ー義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/LEPiWLqnUSI/hqdefault.jpg",
+            "duration": "1:17"
           }
         ]
       }
