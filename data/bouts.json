@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T12:12:39.856Z",
+  "generatedAt": "2026-07-24T10:49:20.666Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1030,6 +1030,97 @@
             "displayTitle": "大関 霧島ー横綱 大の里",
             "thumbnail": "https://i.ytimg.com/vi/j0ilKU_IKok/hqdefault.jpg",
             "duration": "1:32"
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "date": "2026-07-24",
+        "complete": true,
+        "videos": [
+          {
+            "id": "8gEqXxA6gjg",
+            "title": "大相撲　時疾風(時津風部屋)ー玉鷲(片男波部屋)＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "時疾風(時津風部屋)ー玉鷲(片男波部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/8gEqXxA6gjg/hqdefault.jpg",
+            "duration": "1:24"
+          },
+          {
+            "id": "mN3r75kyjW4",
+            "title": "大相撲　嵐富士(伊勢ヶ濱部屋)ー出羽ノ龍(出羽海部屋)＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "嵐富士(伊勢ヶ濱部屋)ー出羽ノ龍(出羽海部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/mN3r75kyjW4/hqdefault.jpg",
+            "duration": "1:32"
+          },
+          {
+            "id": "1srSk5Ry3kU",
+            "title": "大相撲　友風(中村部屋)ー炎鵬(伊勢ヶ濱部屋)＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "友風(中村部屋)ー炎鵬(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/1srSk5Ry3kU/hqdefault.jpg",
+            "duration": "1:29"
+          },
+          {
+            "id": "At1cMdc8ZbI",
+            "title": "大相撲　湘南乃海(高田川部屋)ー白熊(二所ノ関部屋)＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "湘南乃海(高田川部屋)ー白熊(二所ノ関部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/At1cMdc8ZbI/hqdefault.jpg",
+            "duration": "1:14"
+          },
+          {
+            "id": "Hu5yy4hc7LE",
+            "title": "大相撲　若元春ー朝紅龍＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "若元春ー朝紅龍",
+            "thumbnail": "https://i.ytimg.com/vi/Hu5yy4hc7LE/hqdefault.jpg",
+            "duration": "1:35"
+          },
+          {
+            "id": "w4gCiMksZHM",
+            "title": "大相撲　朝乃山ー欧勝馬＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "朝乃山ー欧勝馬",
+            "thumbnail": "https://i.ytimg.com/vi/w4gCiMksZHM/hqdefault.jpg",
+            "duration": "1:56"
+          },
+          {
+            "id": "tq3rh86kHnA",
+            "title": "大相撲　義ノ富士ー琴栄峰＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "義ノ富士ー琴栄峰",
+            "thumbnail": "https://i.ytimg.com/vi/tq3rh86kHnA/hqdefault.jpg",
+            "duration": "0:58"
+          },
+          {
+            "id": "8URejDizCfk",
+            "title": "大相撲　髙安ー琴勝峰＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "髙安ー琴勝峰",
+            "thumbnail": "https://i.ytimg.com/vi/8URejDizCfk/hqdefault.jpg",
+            "duration": "1:23"
+          },
+          {
+            "id": "yOvi6NS7uJY",
+            "title": "大相撲　獅司ー大関 琴櫻＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "獅司ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/yOvi6NS7uJY/hqdefault.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "EkaynXvkpAQ",
+            "title": "大相撲　大関 霧島ー安青錦＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "大関 霧島ー安青錦",
+            "thumbnail": "https://i.ytimg.com/vi/EkaynXvkpAQ/hqdefault.jpg",
+            "duration": "1:20"
+          },
+          {
+            "id": "1hBy9wV8zBs",
+            "title": "大相撲　尊富士ー横綱 大の里＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "尊富士ー横綱 大の里",
+            "thumbnail": "https://i.ytimg.com/vi/1hBy9wV8zBs/hqdefault.jpg",
+            "duration": "1:17"
+          },
+          {
+            "id": "HAe22Jw1W6s",
+            "title": "大相撲　横綱 豊昇龍ー熱海富士＜令和８年七月場所・１３日目＞SUMO",
+            "displayTitle": "横綱 豊昇龍ー熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/HAe22Jw1W6s/hqdefault.jpg",
+            "duration": "1:39"
           }
         ]
       }
