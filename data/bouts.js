@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-07-26T11:08:48.156Z",
+  "generatedAt": "2026-07-26T11:34:34.021Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1275,6 +1275,34 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "熱海富士ー安青錦",
             "thumbnail": "https://i.ytimg.com/vi/fpHE1Lnf640/hqdefault.jpg",
             "duration": "1:25"
+          },
+          {
+            "id": "5sunVzxqohc",
+            "title": "大相撲　十両優勝決定トーナメント＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "十両優勝決定トーナメント",
+            "thumbnail": "https://i.ytimg.com/vi/5sunVzxqohc/hqdefault.jpg",
+            "duration": "4:06"
+          },
+          {
+            "id": "jHsPlDYEDok",
+            "title": "大相撲　琴勝峰ー横綱 大の里＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "琴勝峰ー横綱 大の里",
+            "thumbnail": "https://i.ytimg.com/vi/jHsPlDYEDok/hqdefault.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "HsOvxucLJP0",
+            "title": "大相撲　大関 霧島ー大関 琴櫻＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "大関 霧島ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/HsOvxucLJP0/hqdefault.jpg",
+            "duration": "1:13"
+          },
+          {
+            "id": "exDYlaas5pE",
+            "title": "大相撲　優勝決定巴戦　霧島、熱海富士、安青錦＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "優勝決定巴戦　霧島、熱海富士、安青錦",
+            "thumbnail": "https://i.ytimg.com/vi/exDYlaas5pE/hqdefault.jpg",
+            "duration": "5:00"
           }
         ]
       }
