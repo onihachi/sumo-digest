@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:47:56.157Z",
+  "generatedAt": "2026-07-26T10:23:50.549Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1198,6 +1198,90 @@
             "displayTitle": "大関 琴櫻ー横綱 大の里",
             "thumbnail": "https://i.ytimg.com/vi/YElge2r_U-8/hqdefault.jpg",
             "duration": "1:18"
+          }
+        ]
+      },
+      {
+        "day": 15,
+        "date": "2026-07-26",
+        "complete": false,
+        "videos": [
+          {
+            "id": "RNt9iWh4VCU",
+            "title": "大相撲　輝(高田川部屋)ー寿之富士(伊勢ヶ濱部屋)＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "輝(高田川部屋)ー寿之富士(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/RNt9iWh4VCU/hqdefault.jpg",
+            "duration": "1:24"
+          },
+          {
+            "id": "-jV-qPKNnLE",
+            "title": "大相撲　玉鷲(片男波部屋)ー出羽ノ龍(出羽海部屋)＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "玉鷲(片男波部屋)ー出羽ノ龍(出羽海部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/-jV-qPKNnLE/hqdefault.jpg",
+            "duration": "1:24"
+          },
+          {
+            "id": "Br5ABYN9vlI",
+            "title": "大相撲　時疾風(時津風部屋)ー湘南乃海(高田川部屋)＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "時疾風(時津風部屋)ー湘南乃海(高田川部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/Br5ABYN9vlI/hqdefault.jpg",
+            "duration": "1:51"
+          },
+          {
+            "id": "iqoAtUyUV_A",
+            "title": "大相撲　嵐富士(伊勢ヶ濱部屋)ー旭海雄(大島部屋)＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "嵐富士(伊勢ヶ濱部屋)ー旭海雄(大島部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/iqoAtUyUV_A/hqdefault.jpg",
+            "duration": "2:54"
+          },
+          {
+            "id": "NAxPa43Z3So",
+            "title": "大相撲　朝翠龍(高砂部屋)ー羽出山(玉ノ井部屋)＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "朝翠龍(高砂部屋)ー羽出山(玉ノ井部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/NAxPa43Z3So/hqdefault.jpg",
+            "duration": "1:16"
+          },
+          {
+            "id": "EAW087zZG7w",
+            "title": "大相撲　十両優勝決定トーナメント＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "十両優勝決定トーナメント",
+            "thumbnail": "https://i.ytimg.com/vi/EAW087zZG7w/hqdefault.jpg",
+            "duration": "10:13"
+          },
+          {
+            "id": "93iwANfz1Tc",
+            "title": "大相撲　朝乃山ー髙安＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "朝乃山ー髙安",
+            "thumbnail": "https://i.ytimg.com/vi/93iwANfz1Tc/hqdefault.jpg",
+            "duration": "3:29"
+          },
+          {
+            "id": "iyU3611-fJo",
+            "title": "大相撲　琴栄峰ー尊富士＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "琴栄峰ー尊富士",
+            "thumbnail": "https://i.ytimg.com/vi/iyU3611-fJo/hqdefault.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "V1fsIzBWHvs",
+            "title": "大相撲　藤ノ川ー藤青雲＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "藤ノ川ー藤青雲",
+            "thumbnail": "https://i.ytimg.com/vi/V1fsIzBWHvs/hqdefault.jpg",
+            "duration": "0:54"
+          },
+          {
+            "id": "Fif0PvO5ZGc",
+            "title": "大相撲　義ノ富士ー大栄翔＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "義ノ富士ー大栄翔",
+            "thumbnail": "https://i.ytimg.com/vi/Fif0PvO5ZGc/hqdefault.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "fpHE1Lnf640",
+            "title": "大相撲　熱海富士ー安青錦＜令和８年七月場所・千秋楽＞SUMO",
+            "displayTitle": "熱海富士ー安青錦",
+            "thumbnail": "https://i.ytimg.com/vi/fpHE1Lnf640/hqdefault.jpg",
+            "duration": "1:25"
           }
         ]
       }
