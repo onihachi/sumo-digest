@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:39:59.526Z",
+  "generatedAt": "2026-09-14T15:59:27.437Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -106,6 +106,27 @@
             "displayTitle": "横綱 大の里ー大栄翔",
             "thumbnail": "https://i.ytimg.com/vi/tsqHCQfwtQc/hq720.jpg",
             "duration": "1:16"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-07-13",
+        "complete": false,
+        "videos": [
+          {
+            "id": "aa8lm1OnxkE",
+            "title": "大相撲　日翔志(追手風部屋)ー丹治(荒汐部屋)＜令和８年九月場所・２日目＞SUMO",
+            "displayTitle": "日翔志(追手風部屋)ー丹治(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/aa8lm1OnxkE/hq720.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "JLpqqJRwtiI",
+            "title": "大相撲　生田目(二子山部屋)ー羽出山(玉ノ井部屋)＜令和８年九月場所・２日目＞SUMO",
+            "displayTitle": "生田目(二子山部屋)ー羽出山(玉ノ井部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/JLpqqJRwtiI/hq720.jpg",
+            "duration": "1:06"
           }
         ]
       }
