@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-09-24T15:29:30.604Z",
+  "generatedAt": "2026-09-25T14:44:08.906Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1100,6 +1100,118 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "横綱 大の里ー熱海富士",
             "thumbnail": "https://i.ytimg.com/vi/Y2WIV58_Eg4/hq720.jpg",
             "duration": "1:32"
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "date": "2026-07-24",
+        "complete": true,
+        "videos": [
+          {
+            "id": "nPHIOA-GPq0",
+            "title": "大相撲　時不動(時津風部屋)ー丹治(荒汐部屋)＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "時不動(時津風部屋)ー丹治(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/nPHIOA-GPq0/hq720.jpg",
+            "duration": "1:20"
+          },
+          {
+            "id": "a-Kc_DE2gHA",
+            "title": "大相撲　生田目(二子山部屋)ー輝(高田川部屋)＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "生田目(二子山部屋)ー輝(高田川部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/a-Kc_DE2gHA/hq720.jpg",
+            "duration": "1:32"
+          },
+          {
+            "id": "Sj-eptRyZus",
+            "title": "大相撲　炎鵬(伊勢ヶ濱部屋)ー栃大海(春日野部屋)＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "炎鵬(伊勢ヶ濱部屋)ー栃大海(春日野部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/Sj-eptRyZus/hq720.jpg",
+            "duration": "1:49"
+          },
+          {
+            "id": "Mz_QH9dwmCA",
+            "title": "大相撲　玉鷲(片男波部屋)ー竜電(高田川部屋)＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "玉鷲(片男波部屋)ー竜電(高田川部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/Mz_QH9dwmCA/hq720.jpg",
+            "duration": "1:35"
+          },
+          {
+            "id": "FFCp-x1HDr0",
+            "title": "大相撲　出羽ノ龍(出羽海部屋)ー翠富士(伊勢ヶ濱部屋)＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "出羽ノ龍(出羽海部屋)ー翠富士(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/FFCp-x1HDr0/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "xp5qyvpBzek",
+            "title": "大相撲　寿之富士ー阿炎＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "寿之富士ー阿炎",
+            "thumbnail": "https://i.ytimg.com/vi/xp5qyvpBzek/hq720.jpg",
+            "duration": "1:20"
+          },
+          {
+            "id": "DLHUVi7ESko",
+            "title": "大相撲　時疾風ー朝白龍＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "時疾風ー朝白龍",
+            "thumbnail": "https://i.ytimg.com/vi/DLHUVi7ESko/hq720.jpg",
+            "duration": "1:27"
+          },
+          {
+            "id": "imxTTfFTras",
+            "title": "大相撲　若元春ー平戸海＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "若元春ー平戸海",
+            "thumbnail": "https://i.ytimg.com/vi/imxTTfFTras/hq720.jpg",
+            "duration": "1:35"
+          },
+          {
+            "id": "_eLPUeBLroU",
+            "title": "大相撲　尊富士ー金峰山＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "尊富士ー金峰山",
+            "thumbnail": "https://i.ytimg.com/vi/_eLPUeBLroU/hq720.jpg",
+            "duration": "1:23"
+          },
+          {
+            "id": "fryPdi2ZPjo",
+            "title": "大相撲　藤青雲ー宇良＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "藤青雲ー宇良",
+            "thumbnail": "https://i.ytimg.com/vi/fryPdi2ZPjo/hq720.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "O-8evv2LJh8",
+            "title": "大相撲　欧勝馬ー義ノ富士＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "欧勝馬ー義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/O-8evv2LJh8/hq720.jpg",
+            "duration": "1:10"
+          },
+          {
+            "id": "AIS8CKyqa8M",
+            "title": "大相撲　美ノ海ー藤ノ川＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "美ノ海ー藤ノ川",
+            "thumbnail": "https://i.ytimg.com/vi/AIS8CKyqa8M/hq720.jpg",
+            "duration": "1:14"
+          },
+          {
+            "id": "RIMdIh5Mmxo",
+            "title": "大相撲　熱海富士ー朝乃山＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "熱海富士ー朝乃山",
+            "thumbnail": "https://i.ytimg.com/vi/RIMdIh5Mmxo/hq720.jpg",
+            "duration": "1:40"
+          },
+          {
+            "id": "CFhO43A1SWw",
+            "title": "大相撲　大関 安青錦ー大関 琴櫻＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "大関 安青錦ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/CFhO43A1SWw/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "x-jatCEkThg",
+            "title": "大相撲　横綱 大の里ー大関 霧島＜令和８年九月場所・１３日目＞SUMO",
+            "displayTitle": "横綱 大の里ー大関 霧島",
+            "thumbnail": "https://i.ytimg.com/vi/x-jatCEkThg/hq720.jpg",
+            "duration": "1:55"
           }
         ]
       }
