@@ -27,7 +27,9 @@ jobs:
       - name: Node.js を準備
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          # CVE-2026-111497 (HTTP2Shell): reject cached Node releases before the fix.
+          node-version: ">=22.23.4 <23"
+          check-latest: true
 
       - name: 公式チャンネルから動画を更新
         run: npm run update
