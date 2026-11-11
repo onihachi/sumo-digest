@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:14:05.502Z",
+  "generatedAt": "2026-11-11T16:38:10.070Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -295,6 +295,97 @@
             "displayTitle": "横綱 大の里ー朝乃山",
             "thumbnail": "https://i.ytimg.com/vi/f4tbu8zYYfI/hq720.jpg",
             "duration": "1:32"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2026-07-15",
+        "complete": true,
+        "videos": [
+          {
+            "id": "v2Wkzh6u-g0",
+            "title": "大相撲　丹治(荒汐部屋)ー生田目(二子山部屋)＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "丹治(荒汐部屋)ー生田目(二子山部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/v2Wkzh6u-g0/hq720.jpg",
+            "duration": "1:13"
+          },
+          {
+            "id": "9lL3f0cjfHY",
+            "title": "大相撲　翠富士(伊勢ヶ濱部屋)ー若隆景(荒汐部屋)＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "翠富士(伊勢ヶ濱部屋)ー若隆景(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/9lL3f0cjfHY/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "8G_7_CWrQiU",
+            "title": "大相撲　玉鷲ー旭海雄＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "玉鷲ー旭海雄",
+            "thumbnail": "https://i.ytimg.com/vi/8G_7_CWrQiU/hq720.jpg",
+            "duration": "1:46"
+          },
+          {
+            "id": "JFMdlJU4oSM",
+            "title": "大相撲　一山本ー阿炎＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "一山本ー阿炎",
+            "thumbnail": "https://i.ytimg.com/vi/JFMdlJU4oSM/hq720.jpg",
+            "duration": "1:10"
+          },
+          {
+            "id": "q2Isus9toyg",
+            "title": "大相撲　狼雅ー錦富士＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "狼雅ー錦富士",
+            "thumbnail": "https://i.ytimg.com/vi/q2Isus9toyg/hq720.jpg",
+            "duration": "1:02"
+          },
+          {
+            "id": "i2n9r5H1VsQ",
+            "title": "大相撲　藤ノ川ー義ノ富士＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "藤ノ川ー義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/i2n9r5H1VsQ/hq720.jpg",
+            "duration": "0:53"
+          },
+          {
+            "id": "U5b-mc5unn4",
+            "title": "大相撲　美ノ海ー熱海富士＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "美ノ海ー熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/U5b-mc5unn4/hq720.jpg",
+            "duration": "1:26"
+          },
+          {
+            "id": "PTPts-cT4jQ",
+            "title": "大相撲　大関 霧島ー髙安＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "大関 霧島ー髙安",
+            "thumbnail": "https://i.ytimg.com/vi/PTPts-cT4jQ/hq720.jpg",
+            "duration": "1:45"
+          },
+          {
+            "id": "H_tqoMjsPDI",
+            "title": "大相撲　朝乃山ー大関 琴櫻＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "朝乃山ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/H_tqoMjsPDI/hq720.jpg",
+            "duration": "1:56"
+          },
+          {
+            "id": "wLmsH_mxm9w",
+            "title": "大相撲　大関 安青錦ー藤凌駕＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "大関 安青錦ー藤凌駕",
+            "thumbnail": "https://i.ytimg.com/vi/wLmsH_mxm9w/hq720.jpg",
+            "duration": "1:13"
+          },
+          {
+            "id": "VPQx4-E-VGo",
+            "title": "大相撲　横綱 大の里ー藤青雲＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "横綱 大の里ー藤青雲",
+            "thumbnail": "https://i.ytimg.com/vi/VPQx4-E-VGo/hq720.jpg",
+            "duration": "2:14"
+          },
+          {
+            "id": "CHLN7kpB5eU",
+            "title": "大相撲　宇良ー横綱 豊昇龍＜令和８年九州場所・４日目＞SUMO",
+            "displayTitle": "宇良ー横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/CHLN7kpB5eU/hq720.jpg",
+            "duration": "1:15"
           }
         ]
       }
