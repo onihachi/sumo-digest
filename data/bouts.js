@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-11-12T18:35:03.759Z",
+  "generatedAt": "2026-11-13T16:45:18.745Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -484,6 +484,104 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "横綱 大の里ー宇良",
             "thumbnail": "https://i.ytimg.com/vi/b639KjRJsvE/hq720.jpg",
             "duration": "1:30"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "date": "2026-07-17",
+        "complete": true,
+        "videos": [
+          {
+            "id": "rEOjaWaMItQ",
+            "title": "大相撲　炎鵬(伊勢ヶ濱部屋)ー時不動(時津風部屋)＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "炎鵬(伊勢ヶ濱部屋)ー時不動(時津風部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/rEOjaWaMItQ/hq720.jpg",
+            "duration": "1:32"
+          },
+          {
+            "id": "2TtCtPI-z4A",
+            "title": "大相撲　竜鳳(音羽山部屋)ー若ノ勝(湊川部屋)＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "竜鳳(音羽山部屋)ー若ノ勝(湊川部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/2TtCtPI-z4A/hq720.jpg",
+            "duration": "0:59"
+          },
+          {
+            "id": "apgd8aFV9J0",
+            "title": "大相撲　東白龍(玉ノ井部屋)ー生田目(二子山部屋)＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "東白龍(玉ノ井部屋)ー生田目(二子山部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/apgd8aFV9J0/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "R8w3OKSsRF8",
+            "title": "大相撲　日翔志(追手風部屋)ー若隆景(荒汐部屋)＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "日翔志(追手風部屋)ー若隆景(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/R8w3OKSsRF8/hq720.jpg",
+            "duration": "1:37"
+          },
+          {
+            "id": "1nlSqOAj-vY",
+            "title": "大相撲　若元春ー錦富士＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "若元春ー錦富士",
+            "thumbnail": "https://i.ytimg.com/vi/1nlSqOAj-vY/hq720.jpg",
+            "duration": "1:55"
+          },
+          {
+            "id": "7NBRdp4N96U",
+            "title": "大相撲　尊富士ー藤青雲＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "尊富士ー藤青雲",
+            "thumbnail": "https://i.ytimg.com/vi/7NBRdp4N96U/hq720.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "0GR0f8ZgHfo",
+            "title": "大相撲　藤ノ川ー宇良＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "藤ノ川ー宇良",
+            "thumbnail": "https://i.ytimg.com/vi/0GR0f8ZgHfo/hq720.jpg",
+            "duration": "1:12"
+          },
+          {
+            "id": "eKU3Q1IfADo",
+            "title": "大相撲　朝乃山ー熱海富士＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "朝乃山ー熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/eKU3Q1IfADo/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "nxcUFQmH2AQ",
+            "title": "大相撲　義ノ富士ー大関 琴櫻＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "義ノ富士ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/nxcUFQmH2AQ/hq720.jpg",
+            "duration": "1:29"
+          },
+          {
+            "id": "dfmcHgAQD1I",
+            "title": "大相撲　大関 安青錦ー美ノ海＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "大関 安青錦ー美ノ海",
+            "thumbnail": "https://i.ytimg.com/vi/dfmcHgAQD1I/hq720.jpg",
+            "duration": "1:01"
+          },
+          {
+            "id": "Kxwr1NhRRCs",
+            "title": "大相撲　大関 霧島ー藤凌駕＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "大関 霧島ー藤凌駕",
+            "thumbnail": "https://i.ytimg.com/vi/Kxwr1NhRRCs/hq720.jpg",
+            "duration": "1:47"
+          },
+          {
+            "id": "fbkbjyquu5I",
+            "title": "大相撲　横綱 大の里ー伯乃富士＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "横綱 大の里ー伯乃富士",
+            "thumbnail": "https://i.ytimg.com/vi/fbkbjyquu5I/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "UsX6mw_V6P4",
+            "title": "大相撲　髙安ー横綱 豊昇龍＜令和８年九州場所・６日目＞SUMO",
+            "displayTitle": "髙安ー横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/UsX6mw_V6P4/hq720.jpg",
+            "duration": "1:19"
           }
         ]
       }
