@@ -8,17 +8,30 @@ const els = {
   statusPill: document.querySelector("#status-pill"),
   player: document.querySelector("#video-player"),
   emptyState: document.querySelector("#empty-state"),
+  emptyKicker: document.querySelector("#empty-kicker"),
+  emptyTitleCurrent: document.querySelector("#empty-title-current"),
+  emptyTitleArchive: document.querySelector("#empty-title-archive"),
+  emptyDescriptionCurrent: document.querySelector("#empty-description-current"),
+  emptyDescriptionArchive: document.querySelector("#empty-description-archive"),
   boutInfo: document.querySelector("#bout-info"),
   boutEyebrow: document.querySelector("#bout-eyebrow"),
   boutTitle: document.querySelector("#bout-title"),
   progressBar: document.querySelector("#progress-bar"),
   previousButton: document.querySelector("#previous-button"),
   nextButton: document.querySelector("#next-button"),
+  viewerShell: document.querySelector(".viewer-shell"),
+  archiveSection: document.querySelector("#archive-section"),
+  archiveList: document.querySelector("#archive-list"),
+  currentTournamentButton: document.querySelector("#current-tournament-button"),
   updatedLabel: document.querySelector("#updated-label"),
 };
 
 const state = {
   data: null,
+  archiveData: null,
+  archiveTournaments: [],
+  tournament: null,
+  activeArchiveId: null,
   days: [],
   selectedDay: null,
   currentIndex: 0,
@@ -95,14 +108,107 @@ function buildDayPicker() {
   }
 }
 
+function latestDay(tournament) {
+  return [...(tournament?.days || [])].sort((a, b) => a.day - b.day).at(-1);
+}
+
+function latestArchiveDay(tournament) {
+  return [...(tournament?.days || [])].sort((a, b) => b.day - a.day)
+    .find((day) => day.videos.length) || latestDay(tournament);
+}
+
+function latestCurrentDayWithVideos() {
+  return [...state.days].reverse().find((item) => item.videos.length) || state.days.at(-1);
+}
+
+function updateUpdatedLabel() {
+  const generatedAt = state.activeArchiveId
+    ? state.archiveData?.generatedAt
+    : state.data?.generatedAt;
+  const prefix = state.activeArchiveId ? "アーカイブ更新" : "最終更新";
+  if (!generatedAt) {
+    els.updatedLabel.textContent = state.activeArchiveId ? "アーカイブ収録" : "最終更新を確認中";
+    return;
+  }
+
+  els.updatedLabel.textContent = `${prefix} ${new Intl.DateTimeFormat("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(new Date(generatedAt))}`;
+}
+
+function renderArchiveList() {
+  els.archiveList.replaceChildren();
+
+  for (const tournament of state.archiveTournaments) {
+    const item = document.createElement("li");
+    const button = document.createElement("button");
+    const label = document.createElement("span");
+    const summary = document.createElement("small");
+    const lastDay = latestArchiveDay(tournament);
+
+    button.className = "archive-button";
+    button.type = "button";
+    button.dataset.archiveId = tournament.id;
+    label.className = "archive-card-label";
+    label.textContent = tournament.displayLabel;
+    summary.className = "archive-card-summary";
+    summary.textContent = lastDay
+      ? `${displayDayName(lastDay.day)}・${lastDay.videos.length}取組`
+      : "収録データなし";
+    button.append(label, summary);
+    item.append(button);
+    els.archiveList.append(item);
+  }
+
+  updateArchiveSelection();
+}
+
+function updateArchiveSelection() {
+  els.archiveSection.hidden = state.archiveTournaments.length === 0;
+  for (const item of els.archiveList.children) {
+    const button = item.children[0];
+    if (button?.dataset.archiveId) {
+      button.setAttribute("aria-pressed", String(state.activeArchiveId === button.dataset.archiveId));
+    }
+  }
+  els.currentTournamentButton.hidden = !state.activeArchiveId;
+}
+
+function setTournament(tournament, archiveId = null) {
+  state.tournament = tournament;
+  state.activeArchiveId = archiveId;
+  state.days = archiveId
+    ? [...tournament.days].sort((a, b) => a.day - b.day)
+    : withTodayPlaceholder(state.data);
+  els.bashoLabel.textContent = tournament.label;
+  buildDayPicker();
+  updateArchiveSelection();
+  updateUpdatedLabel();
+}
+
 function selectedVideos() {
   return state.selectedDay?.videos || [];
+}
+
+function updateEmptyStateCopy() {
+  const isArchive = Boolean(state.activeArchiveId);
+  els.emptyKicker.textContent = isArchive ? "収録なし" : "ただいま準備中";
+  els.emptyTitleCurrent.hidden = isArchive;
+  els.emptyTitleArchive.hidden = !isArchive;
+  els.emptyDescriptionCurrent.hidden = isArchive;
+  els.emptyDescriptionArchive.hidden = !isArchive;
 }
 
 function updateVideo({ autoplay = false } = {}) {
   const videos = selectedVideos();
   const video = videos[state.currentIndex];
   const hasVideo = Boolean(video);
+  const isLastVideo = hasVideo && state.currentIndex === videos.length - 1;
+  const finalBoutVerified = !state.activeArchiveId || state.selectedDay?.complete;
 
   els.player.hidden = !hasVideo;
   els.emptyState.hidden = hasVideo;
@@ -110,6 +216,7 @@ function updateVideo({ autoplay = false } = {}) {
   els.currentNumber.textContent = hasVideo ? String(state.currentIndex + 1).padStart(2, "0") : "—";
   els.totalNumber.textContent = videos.length ? String(videos.length).padStart(2, "0") : "—";
   els.progressBar.style.width = hasVideo ? `${((state.currentIndex + 1) / videos.length) * 100}%` : "0%";
+  updateEmptyStateCopy();
 
   if (hasVideo) {
     const params = new URLSearchParams({
@@ -119,18 +226,30 @@ function updateVideo({ autoplay = false } = {}) {
       ...(autoplay ? { autoplay: "1" } : {}),
     });
     els.player.src = `https://www.youtube-nocookie.com/embed/${video.id}?${params}`;
-    els.boutEyebrow.textContent = state.currentIndex === videos.length - 1 ? "結びの一番" : `第${state.currentIndex + 1}取組`;
+    els.boutEyebrow.textContent = isLastVideo
+      ? finalBoutVerified ? "結びの一番" : "最後の収録取組"
+      : `第${state.currentIndex + 1}取組`;
     els.boutTitle.textContent = video.displayTitle;
-    document.title = `${displayDayName(state.selectedDay.day)} ${video.displayTitle}｜大相撲 取組ダイジェスト`;
+    const tournamentLabel = state.activeArchiveId
+      ? state.tournament.displayLabel
+      : state.tournament.label;
+    document.title = `${displayDayName(state.selectedDay.day)} ${video.displayTitle}｜${tournamentLabel}｜大相撲 取組ダイジェスト`;
   } else {
     els.player.removeAttribute("src");
-    document.title = `${displayDayName(state.selectedDay.day)} 取組ダイジェスト｜大相撲`;
+    const tournamentLabel = state.activeArchiveId
+      ? state.tournament.displayLabel
+      : state.tournament.label;
+    document.title = `${displayDayName(state.selectedDay.day)} ${tournamentLabel} 取組ダイジェスト｜大相撲`;
   }
 
   els.previousButton.disabled = !hasVideo || state.currentIndex === 0;
   els.nextButton.disabled = !hasVideo || state.currentIndex === videos.length - 1;
   els.nextButton.querySelector("span:first-child").textContent =
-    hasVideo && state.currentIndex === videos.length - 1 ? "本日の結びです" : "次の取組";
+    isLastVideo
+      ? finalBoutVerified
+        ? state.activeArchiveId ? "この日の結びです" : "本日の結びです"
+        : "収録済みの最後です"
+      : "次の取組";
 }
 
 function selectDay(dayNumber) {
@@ -140,18 +259,44 @@ function selectDay(dayNumber) {
 
   els.daySelect.value = String(day);
   els.dateLabel.textContent = displayDate(date, true);
-  els.countLabel.textContent = videos.length ? `${videos.length}取組を収録` : "動画の公開待ち";
-  els.statusPill.textContent = complete ? "全取組 公開済み" : videos.length ? "順次更新中" : "18時・19時 更新";
-  els.statusPill.classList.toggle("complete", complete);
+  els.countLabel.textContent = videos.length
+    ? `${videos.length}取組を収録`
+    : state.activeArchiveId ? "0取組を収録" : "動画の公開待ち";
+  els.statusPill.textContent = state.activeArchiveId
+    ? "アーカイブ"
+    : complete ? "全取組 公開済み" : videos.length ? "順次更新中" : "18時・19時 更新";
+  els.statusPill.classList.toggle("complete", !state.activeArchiveId && complete);
   updateVideo();
 
   try {
     const url = new URL(window.location.href);
+    if (state.activeArchiveId) {
+      url.searchParams.set("basho", state.activeArchiveId);
+    } else {
+      url.searchParams.delete("basho");
+    }
     url.searchParams.set("day", String(day));
     history.replaceState(null, "", url);
   } catch (error) {
     console.warn("選択日のURL保存を省略しました", error);
   }
+}
+
+function selectArchive(archiveId, dayNumber) {
+  const tournament = state.archiveTournaments.find((item) => item.id === archiveId);
+  if (!tournament) return;
+  setTournament(tournament, archiveId);
+  const requestedDay = dayNumber == null
+    ? null
+    : tournament.days.find((item) => item.day === Number(dayNumber));
+  selectDay(requestedDay?.day || latestArchiveDay(tournament)?.day);
+}
+
+function selectCurrentTournament() {
+  const restoreFocus = document.activeElement === els.currentTournamentButton;
+  setTournament(state.data.tournament);
+  selectDay(latestCurrentDayWithVideos()?.day);
+  if (restoreFocus) els.daySelect.focus({ preventScroll: true });
 }
 
 function moveBy(amount) {
@@ -171,6 +316,15 @@ function bindEvents() {
   els.daySelect.addEventListener("input", handleDaySelection);
   els.previousButton.addEventListener("click", () => moveBy(-1));
   els.nextButton.addEventListener("click", () => moveBy(1));
+  els.archiveList.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-archive-id]");
+    if (button) {
+      selectArchive(button.dataset.archiveId);
+      els.viewerShell.tabIndex = -1;
+      els.viewerShell.focus({ preventScroll: true });
+    }
+  });
+  els.currentTournamentButton.addEventListener("click", selectCurrentTournament);
 
   document.addEventListener("keydown", (event) => {
     if (event.target.matches("select, button, input, textarea")) return;
@@ -200,25 +354,32 @@ async function init() {
       if (!response.ok) throw new Error(`データ取得エラー: ${response.status}`);
       state.data = await response.json();
     }
-    state.days = withTodayPlaceholder(state.data);
-
-    els.bashoLabel.textContent = state.data.tournament.label;
-    els.updatedLabel.textContent = `最終更新 ${new Intl.DateTimeFormat("ja-JP", {
-      timeZone: "Asia/Tokyo",
-      month: "numeric",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-    }).format(new Date(state.data.generatedAt))}`;
-
-    buildDayPicker();
+    state.archiveData = window.SUMO_DIGEST_ARCHIVES || { tournaments: [] };
+    state.archiveTournaments = state.archiveData.tournaments || [];
+    renderArchiveList();
+    setTournament(state.data.tournament);
     bindEvents();
-    const requestedDay = Number(new URLSearchParams(location.search).get("day"));
-    const availableRequestedDay = state.days.some(
-      (item) => item.day === requestedDay && item.videos.length > 0,
-    );
-    const latestDayWithVideos = [...state.days].reverse().find((item) => item.videos.length);
-    selectDay(availableRequestedDay ? requestedDay : latestDayWithVideos?.day || state.days.at(-1).day);
+
+    const params = new URLSearchParams(location.search);
+    const bashoParameterPresent = params.has("basho");
+    const requestedBasho = params.get("basho");
+    const dayParameterPresent = params.has("day");
+    const requestedDay = Number(params.get("day"));
+    const archive = state.archiveTournaments.find((item) => item.id === requestedBasho);
+
+    if (requestedBasho && archive) {
+      const archiveDay = dayParameterPresent
+        ? archive.days.find((item) => item.day === requestedDay)
+        : latestArchiveDay(archive);
+      if (archiveDay) {
+        selectArchive(archive.id, archiveDay.day);
+        return;
+      }
+    }
+
+    const currentDays = state.days;
+    const availableRequestedDay = !bashoParameterPresent && currentDays.some((item) => item.day === requestedDay);
+    selectDay(availableRequestedDay ? requestedDay : latestCurrentDayWithVideos()?.day);
   } catch (error) {
     console.error(error);
     els.countLabel.textContent = "読み込みエラー";

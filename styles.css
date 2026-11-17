@@ -417,6 +417,111 @@ kbd {
   font-family: inherit;
 }
 
+.archive-section {
+  margin: 30px 0 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.archive-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.archive-kicker {
+  margin: 0 0 3px;
+  color: var(--gold);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+}
+
+.archive-heading h2 {
+  margin: 0;
+  font-family: "Noto Serif JP", serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.archive-return-button {
+  padding: 7px 11px;
+  border: 1px solid rgb(182 51 36 / 34%);
+  background: transparent;
+  color: var(--vermilion);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.archive-return-button:hover {
+  border-color: var(--vermilion);
+  background: rgb(182 51 36 / 5%);
+}
+
+.archive-return-button:focus-visible,
+.archive-button:focus-visible {
+  outline: 3px solid rgb(182 51 36 / 24%);
+  outline-offset: 3px;
+}
+
+.archive-return-button[hidden] {
+  display: none;
+}
+
+.archive-list {
+  margin: 12px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  list-style: none;
+}
+
+.archive-button {
+  width: 100%;
+  min-height: 66px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid var(--line);
+  background: rgb(250 247 239 / 72%);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.archive-button:hover {
+  border-color: var(--gold);
+  background: var(--paper-light);
+  transform: translateY(-1px);
+}
+
+.archive-button[aria-pressed="true"] {
+  border-color: var(--vermilion);
+  background: rgb(182 51 36 / 5%);
+}
+
+.archive-card-label {
+  font-family: "Noto Serif JP", serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.archive-card-summary {
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+}
+
 .source-note {
   width: min(690px, 100%);
   margin: 34px auto 60px;
@@ -532,6 +637,24 @@ footer p {
 
   .key-hint {
     display: none;
+  }
+
+  .archive-section {
+    margin-top: 24px;
+  }
+
+  .archive-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  .archive-button {
+    min-height: 62px;
+    padding: 10px;
+  }
+
+  .archive-card-label {
+    font-size: 11px;
   }
 
   .source-note {

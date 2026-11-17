@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-11-16T20:40:01.247Z",
+  "generatedAt": "2026-11-17T01:22:35.604Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -9,11 +9,11 @@ window.SUMO_DIGEST_DATA = {
     "label": "令和8年 九州場所",
     "eraYear": 8,
     "basho": "九州",
-    "startDate": "2026-07-12",
+    "startDate": "2026-11-08",
     "days": [
       {
         "day": 1,
-        "date": "2026-07-12",
+        "date": "2026-11-08",
         "complete": true,
         "videos": [
           {
@@ -97,7 +97,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 2,
-        "date": "2026-07-13",
+        "date": "2026-11-09",
         "complete": true,
         "videos": [
           {
@@ -195,7 +195,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 3,
-        "date": "2026-07-14",
+        "date": "2026-11-10",
         "complete": true,
         "videos": [
           {
@@ -300,7 +300,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 4,
-        "date": "2026-07-15",
+        "date": "2026-11-11",
         "complete": true,
         "videos": [
           {
@@ -391,7 +391,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 5,
-        "date": "2026-07-16",
+        "date": "2026-11-12",
         "complete": true,
         "videos": [
           {
@@ -489,7 +489,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 6,
-        "date": "2026-07-17",
+        "date": "2026-11-13",
         "complete": true,
         "videos": [
           {
@@ -587,7 +587,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 7,
-        "date": "2026-07-18",
+        "date": "2026-11-14",
         "complete": false,
         "videos": [
           {
@@ -685,7 +685,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 8,
-        "date": "2026-07-19",
+        "date": "2026-11-15",
         "complete": true,
         "videos": [
           {
@@ -776,7 +776,7 @@ window.SUMO_DIGEST_DATA = {
       },
       {
         "day": 9,
-        "date": "2026-07-20",
+        "date": "2026-11-16",
         "complete": true,
         "videos": [
           {

@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://i.ytimg.com" />
     <link rel="stylesheet" href="styles.css" />
     <script src="data/bouts.js" defer></script>
+    <script src="data/archives.js" defer></script>
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -56,9 +57,15 @@
           ></iframe>
           <div class="empty-state" id="empty-state" hidden>
             <span class="empty-ring" aria-hidden="true"></span>
-            <p class="empty-kicker">ただいま準備中</p>
-            <h2>本日の取組動画を<br />待っています</h2>
-            <p>18時ごろから順次公開され、<br class="mobile-only" />19時ごろにもう一度更新します。</p>
+            <p class="empty-kicker" id="empty-kicker">ただいま準備中</p>
+            <h2>
+              <span id="empty-title-current">本日の取組動画を<br />待っています</span>
+              <span id="empty-title-archive" hidden>この日の取組動画は<br />アーカイブ未収録です</span>
+            </h2>
+            <p>
+              <span id="empty-description-current">18時ごろから順次公開され、<br class="mobile-only" />19時ごろにもう一度更新します。</span>
+              <span id="empty-description-archive" hidden>この日にアーカイブされた取組動画はありません。<br />別の日をお選びください。</span>
+            </p>
             <a href="https://www.youtube.com/@sumo-video/videos" target="_blank" rel="noopener noreferrer">
               公式チャンネルを見る ↗
             </a>
@@ -85,6 +92,25 @@
           </button>
         </nav>
         <p class="key-hint">キーボードの <kbd>←</kbd> <kbd>→</kbd> でも移動できます</p>
+      </section>
+
+      <section class="archive-section" id="archive-section" aria-labelledby="archive-title" hidden>
+        <div class="archive-heading">
+          <div>
+            <p class="archive-kicker" aria-hidden="true">SUMO ARCHIVE</p>
+            <h2 id="archive-title">過去の場所</h2>
+          </div>
+          <button
+            class="archive-return-button"
+            id="current-tournament-button"
+            type="button"
+            aria-controls="day-select"
+            hidden
+          >
+            今場所へ戻る
+          </button>
+        </div>
+        <ul class="archive-list" id="archive-list" aria-label="過去の場所一覧"></ul>
       </section>
 
       <aside class="source-note">

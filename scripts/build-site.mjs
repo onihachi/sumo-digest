@@ -15,7 +15,7 @@ for (const file of ["index.html", "styles.css", "app.js"]) {
   await copyFile(resolve(root, file), resolve(client, file));
 }
 
-for (const file of ["bouts.js", "bouts.json"]) {
+for (const file of ["bouts.js", "bouts.json", "archives.js", "archives.json"]) {
   await copyFile(resolve(root, "data", file), resolve(client, "data", file));
 }
 

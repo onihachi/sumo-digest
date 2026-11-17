@@ -39,12 +39,12 @@ jobs:
 
       - name: 更新があれば保存
         run: |
-          if git diff --quiet -- data/bouts.json data/bouts.js; then
+          if git diff --quiet -- data/bouts.json data/bouts.js data/archives.json data/archives.js; then
             echo "更新はありません"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bouts.json data/bouts.js
+          git add data/bouts.json data/bouts.js data/archives.json data/archives.js
           git commit -m "chore: 取組動画を自動更新"
           git push
