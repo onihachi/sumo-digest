@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-11-17T01:22:35.604Z",
+  "generatedAt": "2026-11-17T17:54:45.381Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -883,6 +883,104 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "横綱 大の里ー尊富士",
             "thumbnail": "https://i.ytimg.com/vi/zku3QaA3OMg/hq720.jpg",
             "duration": "1:22"
+          }
+        ]
+      },
+      {
+        "day": 10,
+        "date": "2026-11-17",
+        "complete": true,
+        "videos": [
+          {
+            "id": "cfC84s9tJ68",
+            "title": "大相撲　炎鵬(伊勢ヶ濱部屋)ー玉正鳳(片男波部屋)＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "炎鵬(伊勢ヶ濱部屋)ー玉正鳳(片男波部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/cfC84s9tJ68/hq720.jpg",
+            "duration": "5:29"
+          },
+          {
+            "id": "AiQkWpeoKuE",
+            "title": "大相撲　一意(木瀬部屋)ー生田目(二子山部屋)＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "一意(木瀬部屋)ー生田目(二子山部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/AiQkWpeoKuE/hq720.jpg",
+            "duration": "1:59"
+          },
+          {
+            "id": "PiaIBU8YVmQ",
+            "title": "大相撲　若隆景(荒汐部屋)ー阿武剋(阿武松部屋)＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "若隆景(荒汐部屋)ー阿武剋(阿武松部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/PiaIBU8YVmQ/hq720.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "ZwCEg5fV7Sk",
+            "title": "大相撲　玉鷲ー阿炎＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "玉鷲ー阿炎",
+            "thumbnail": "https://i.ytimg.com/vi/ZwCEg5fV7Sk/hq720.jpg",
+            "duration": "1:22"
+          },
+          {
+            "id": "02_fPa33Ex8",
+            "title": "大相撲　若元春ー朝白龍＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "若元春ー朝白龍",
+            "thumbnail": "https://i.ytimg.com/vi/02_fPa33Ex8/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "8wx-NVoByT8",
+            "title": "大相撲　朝乃山ー髙安＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "朝乃山ー髙安",
+            "thumbnail": "https://i.ytimg.com/vi/8wx-NVoByT8/hq720.jpg",
+            "duration": "1:10"
+          },
+          {
+            "id": "CEDUTCn8QHg",
+            "title": "大相撲　美ノ海ー藤青雲＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "美ノ海ー藤青雲",
+            "thumbnail": "https://i.ytimg.com/vi/CEDUTCn8QHg/hq720.jpg",
+            "duration": "1:10"
+          },
+          {
+            "id": "wotaJYBc004",
+            "title": "大相撲　宇良ー義ノ富士＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "宇良ー義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/wotaJYBc004/hq720.jpg",
+            "duration": "1:09"
+          },
+          {
+            "id": "TPcZQEAODG4",
+            "title": "大相撲　藤ノ川ー藤凌駕＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "藤ノ川ー藤凌駕",
+            "thumbnail": "https://i.ytimg.com/vi/TPcZQEAODG4/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "S6CX058tz_g",
+            "title": "大相撲　伯乃富士ー大関 琴櫻＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "伯乃富士ー大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/S6CX058tz_g/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "Fjf13s1I9wk",
+            "title": "大相撲　大関 安青錦ー大関 霧島＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "大関 安青錦ー大関 霧島",
+            "thumbnail": "https://i.ytimg.com/vi/Fjf13s1I9wk/hq720.jpg",
+            "duration": "2:00"
+          },
+          {
+            "id": "GB78blCcUek",
+            "title": "大相撲　横綱 大の里ー熱海富士＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "横綱 大の里ー熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/GB78blCcUek/hq720.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "NEsA5Ht44Xc",
+            "title": "大相撲　尊富士ー横綱 豊昇龍＜令和８年九州場所・１０日目＞SUMO",
+            "displayTitle": "尊富士ー横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/NEsA5Ht44Xc/hq720.jpg",
+            "duration": "1:17"
           }
         ]
       }
