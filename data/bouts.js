@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-11-19T19:08:56.948Z",
+  "generatedAt": "2026-11-20T17:19:55.336Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1163,6 +1163,111 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "藤ノ川－横綱 豊昇龍",
             "thumbnail": "https://i.ytimg.com/vi/jsL8oVFzJt8/hq720.jpg",
             "duration": "1:38"
+          }
+        ]
+      },
+      {
+        "day": 13,
+        "date": "2026-11-20",
+        "complete": true,
+        "videos": [
+          {
+            "id": "VJV1-1XhtgU",
+            "title": "大相撲　湘南乃海(高田川部屋)ー旭富士(伊勢ヶ濱部屋)＜令和８年九州場所・１３日目＞SUMO",
+            "displayTitle": "湘南乃海(高田川部屋)ー旭富士(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/VJV1-1XhtgU/hq720.jpg",
+            "duration": "1:36"
+          },
+          {
+            "id": "isB2tHNe-GY",
+            "title": "大相撲　一意(木瀬部屋)ー炎鵬(伊勢ヶ濱部屋)＜令和８年九州場所・１３日目＞SUMO",
+            "displayTitle": "一意(木瀬部屋)ー炎鵬(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/isB2tHNe-GY/hq720.jpg",
+            "duration": "1:40"
+          },
+          {
+            "id": "XN9FMB29cqA",
+            "title": "大相撲　輝(高田川部屋)ー若隆景(荒汐部屋)＜令和８年九州場所・１３日目＞SUMO",
+            "displayTitle": "輝(高田川部屋)ー若隆景(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/XN9FMB29cqA/hq720.jpg",
+            "duration": "1:13"
+          },
+          {
+            "id": "JXenH2beVGk",
+            "title": "大相撲　若ノ勝(湊川部屋)ー翔猿(追手風部屋)＜令和８年九州場所・１３日目＞SUMO",
+            "displayTitle": "若ノ勝(湊川部屋)ー翔猿(追手風部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/JXenH2beVGk/hq720.jpg",
+            "duration": "1:08"
+          },
+          {
+            "id": "DMf20CySW3U",
+            "title": "大相撲　千代翔馬(九重部屋)ー生田目(二子山部屋)＜令和８年九州場所・１３日目＞SUMO",
+            "displayTitle": "千代翔馬(九重部屋)ー生田目(二子山部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/DMf20CySW3U/hq720.jpg",
+            "duration": "1:29"
+          },
+          {
+            "id": "iCw7KgiBcHw",
+            "title": "大相撲　朝乃山－宇良＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "朝乃山－宇良",
+            "thumbnail": "https://i.ytimg.com/vi/iCw7KgiBcHw/hq720.jpg",
+            "duration": "1:54"
+          },
+          {
+            "id": "54v5PqWvHTA",
+            "title": "大相撲　玉鷲－義ノ富士＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "玉鷲－義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/54v5PqWvHTA/hq720.jpg",
+            "duration": "1:15"
+          },
+          {
+            "id": "7d4QGCH3-gI",
+            "title": "大相撲　美ノ海－尊富士＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "美ノ海－尊富士",
+            "thumbnail": "https://i.ytimg.com/vi/7d4QGCH3-gI/hq720.jpg",
+            "duration": "1:07"
+          },
+          {
+            "id": "qLvsaFhaVRU",
+            "title": "大相撲　狼雅－熱海富士＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "狼雅－熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/qLvsaFhaVRU/hq720.jpg",
+            "duration": "1:53"
+          },
+          {
+            "id": "dqNDYaSioqQ",
+            "title": "大相撲　藤ノ川－出羽ノ龍＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "藤ノ川－出羽ノ龍",
+            "thumbnail": "https://i.ytimg.com/vi/dqNDYaSioqQ/hq720.jpg",
+            "duration": "1:19"
+          },
+          {
+            "id": "1b3Y362-jck",
+            "title": "大相撲　豪ノ山－大関 琴櫻＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "豪ノ山－大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/1b3Y362-jck/hq720.jpg",
+            "duration": "1:17"
+          },
+          {
+            "id": "I6MBC25B4Q4",
+            "title": "大相撲　大関 安青錦－横綱 豊昇龍＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "大関 安青錦－横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/I6MBC25B4Q4/hq720.jpg",
+            "duration": "1:36"
+          },
+          {
+            "id": "Wu65SvsZycA",
+            "title": "大相撲　大関 霧島－金峰山＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "大関 霧島－金峰山",
+            "thumbnail": "https://i.ytimg.com/vi/Wu65SvsZycA/hq720.jpg",
+            "duration": "1:05"
+          },
+          {
+            "id": "uehXY-6lB6o",
+            "title": "大相撲　横綱 大の里－若元春＜令和８年九州場所・13日目＞SUMO",
+            "displayTitle": "横綱 大の里－若元春",
+            "thumbnail": "https://i.ytimg.com/vi/uehXY-6lB6o/hq720.jpg",
+            "duration": "1:19"
           }
         ]
       }
