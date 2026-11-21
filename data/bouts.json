@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:48:51.938Z",
+  "generatedAt": "2026-11-21T16:24:15.914Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1085,7 +1085,7 @@
       {
         "day": 12,
         "date": "2026-11-19",
-        "complete": true,
+        "complete": false,
         "videos": [
           {
             "id": "Lc2oRLbqN60",
@@ -1163,6 +1163,13 @@
             "displayTitle": "藤ノ川－横綱 豊昇龍",
             "thumbnail": "https://i.ytimg.com/vi/jsL8oVFzJt8/hq720.jpg",
             "duration": "1:38"
+          },
+          {
+            "id": "QGnMIzEgVyo",
+            "title": "大相撲　大関 安青錦－若元春＜令和８年九州場所・12日目＞SUMO",
+            "displayTitle": "大関 安青錦－若元春",
+            "thumbnail": "https://i.ytimg.com/vi/QGnMIzEgVyo/hq720.jpg",
+            "duration": "1:25"
           }
         ]
       },
@@ -1268,6 +1275,90 @@
             "displayTitle": "横綱 大の里－若元春",
             "thumbnail": "https://i.ytimg.com/vi/uehXY-6lB6o/hq720.jpg",
             "duration": "1:19"
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "date": "2026-11-21",
+        "complete": true,
+        "videos": [
+          {
+            "id": "5n15kj716Uw",
+            "title": "大相撲　丹治－旭富士＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "丹治－旭富士",
+            "thumbnail": "https://i.ytimg.com/vi/5n15kj716Uw/hq720.jpg",
+            "duration": "1:55"
+          },
+          {
+            "id": "YGnHVp-h5tU",
+            "title": "大相撲　時不動－生田目＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "時不動－生田目",
+            "thumbnail": "https://i.ytimg.com/vi/YGnHVp-h5tU/hq720.jpg",
+            "duration": "1:37"
+          },
+          {
+            "id": "pRETBCthNsc",
+            "title": "大相撲　炎鵬－若隆景＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "炎鵬－若隆景",
+            "thumbnail": "https://i.ytimg.com/vi/pRETBCthNsc/hq720.jpg",
+            "duration": "5:41"
+          },
+          {
+            "id": "uypS3kLVVdk",
+            "title": "大相撲　欧勝馬－玉鷲＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "欧勝馬－玉鷲",
+            "thumbnail": "https://i.ytimg.com/vi/uypS3kLVVdk/hq720.jpg",
+            "duration": "1:31"
+          },
+          {
+            "id": "_wHouYCSZnY",
+            "title": "大相撲　朝乃山－狼雅＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "朝乃山－狼雅",
+            "thumbnail": "https://i.ytimg.com/vi/_wHouYCSZnY/hq720.jpg",
+            "duration": "1:39"
+          },
+          {
+            "id": "hISjPf74fPA",
+            "title": "大相撲　伯乃富士－藤凌駕＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "伯乃富士－藤凌駕",
+            "thumbnail": "https://i.ytimg.com/vi/hISjPf74fPA/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "Psi3JcCL1l4",
+            "title": "大相撲　朝白龍－義ノ富士＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "朝白龍－義ノ富士",
+            "thumbnail": "https://i.ytimg.com/vi/Psi3JcCL1l4/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "b43GpHYN6CI",
+            "title": "大相撲　藤ノ川－隆の勝＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "藤ノ川－隆の勝",
+            "thumbnail": "https://i.ytimg.com/vi/b43GpHYN6CI/hq720.jpg",
+            "duration": "1:25"
+          },
+          {
+            "id": "L7bX-QUpHqM",
+            "title": "大相撲　大関 霧島－熱海富士＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "大関 霧島－熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/L7bX-QUpHqM/hq720.jpg",
+            "duration": "1:37"
+          },
+          {
+            "id": "9khb6FPOu9E",
+            "title": "大相撲　横綱 大の里－金峰山＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "横綱 大の里－金峰山",
+            "thumbnail": "https://i.ytimg.com/vi/9khb6FPOu9E/hq720.jpg",
+            "duration": "1:24"
+          },
+          {
+            "id": "Ri-4b81Hyzg",
+            "title": "大相撲　大関 琴櫻－横綱 豊昇龍＜令和８年九州場所・14日目＞SUMO",
+            "displayTitle": "大関 琴櫻－横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/Ri-4b81Hyzg/hq720.jpg",
+            "duration": "1:27"
           }
         ]
       }
