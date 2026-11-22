@@ -1,5 +1,5 @@
 window.SUMO_DIGEST_DATA = {
-  "generatedAt": "2026-11-21T17:45:58.142Z",
+  "generatedAt": "2026-11-22T16:40:01.603Z",
   "source": {
     "channelId": "UC6ZZhovRZpUA4VafgBdECZQ",
     "channelName": "日本相撲協会公式チャンネル",
@@ -1359,6 +1359,76 @@ window.SUMO_DIGEST_DATA = {
             "displayTitle": "大関 琴櫻－横綱 豊昇龍",
             "thumbnail": "https://i.ytimg.com/vi/Ri-4b81Hyzg/hq720.jpg",
             "duration": "1:27"
+          }
+        ]
+      },
+      {
+        "day": 15,
+        "date": "2026-11-22",
+        "complete": true,
+        "videos": [
+          {
+            "id": "pUqnmBizfrg",
+            "title": "大相撲　若ノ勝(湊川部屋)－若隆景(荒汐部屋)＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "若ノ勝(湊川部屋)－若隆景(荒汐部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/pUqnmBizfrg/hq720.jpg",
+            "duration": "1:07"
+          },
+          {
+            "id": "eijWko_wK24",
+            "title": "大相撲　輝(高田川部屋)－炎鵬(伊勢ヶ濱部屋)＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "輝(高田川部屋)－炎鵬(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/eijWko_wK24/hq720.jpg",
+            "duration": "1:43"
+          },
+          {
+            "id": "r6XFG6tiLmg",
+            "title": "大相撲　風賢央(押尾川部屋)－旭富士(伊勢ヶ濱部屋)＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "風賢央(押尾川部屋)－旭富士(伊勢ヶ濱部屋)",
+            "thumbnail": "https://i.ytimg.com/vi/r6XFG6tiLmg/hq720.jpg",
+            "duration": "1:35"
+          },
+          {
+            "id": "05VVnbbdaF4",
+            "title": "大相撲　玉鷲－朝翠龍＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "玉鷲－朝翠龍",
+            "thumbnail": "https://i.ytimg.com/vi/05VVnbbdaF4/hq720.jpg",
+            "duration": "1:30"
+          },
+          {
+            "id": "wLbxBSa_YLI",
+            "title": "大相撲　朝乃山－金峰山＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "朝乃山－金峰山",
+            "thumbnail": "https://i.ytimg.com/vi/wLbxBSa_YLI/hq720.jpg",
+            "duration": "1:32"
+          },
+          {
+            "id": "q1EwypD8l_s",
+            "title": "大相撲　若元春－熱海富士＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "若元春－熱海富士",
+            "thumbnail": "https://i.ytimg.com/vi/q1EwypD8l_s/hq720.jpg",
+            "duration": "2:35"
+          },
+          {
+            "id": "96TMIalD4s4",
+            "title": "大相撲　大関 霧島－藤ノ川＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "大関 霧島－藤ノ川",
+            "thumbnail": "https://i.ytimg.com/vi/96TMIalD4s4/hq720.jpg",
+            "duration": "2:48"
+          },
+          {
+            "id": "GtWHVoRqZqw",
+            "title": "大相撲　大関 安青錦－大関 琴櫻＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "大関 安青錦－大関 琴櫻",
+            "thumbnail": "https://i.ytimg.com/vi/GtWHVoRqZqw/hq720.jpg",
+            "duration": "1:18"
+          },
+          {
+            "id": "f4FMULHi35w",
+            "title": "大相撲　横綱 大の里－横綱 豊昇龍＜令和８年九州場所・千秋楽＞SUMO",
+            "displayTitle": "横綱 大の里－横綱 豊昇龍",
+            "thumbnail": "https://i.ytimg.com/vi/f4FMULHi35w/hq720.jpg",
+            "duration": "1:30"
           }
         ]
       }
